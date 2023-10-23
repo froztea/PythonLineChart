@@ -1,0 +1,32 @@
+# ###########################################Line Chart
+
+# Create FORLOOP for 16 years beginning in 2006
+# years = [2006 + x for x in range(16)]
+# weights = [80, 83, 84, 85, 86, 82, 81, 79, 83, 80, 82, 82, 83, 81, 80, 79]
+
+# Check to see if we have the same number of years as the number of weights
+# print(len(years))
+# print(len(weights))
+
+# Default Plot is a LINE CHART
+# plt.plot(years, weights, c = "RED")
+
+# Color is Blue.  Line Width is 3
+# plt.plot(years, weights, c = "BLUE", lw=3)
+
+# Color is GREEN.  Line Width is 6.  Line Style is --
+# plt.plot(years, weights, c = "GREEN", lw=6, linestyle= "--")
+
+# print(years)
+# plt.show()
+
+# Example Poll
+# x = ["C++", "C#", "Python", "Java", "Go"]
+# y = [20, 50, 140, 1, 45]
+
+
+# Must use "Color" not "C".  Color is RED.  Align is "EDGE". Width is 0.5
+# plt.bar(x,y, color = "RED", align= "edge", width= 0.5, edgecolor="BLUE")
+# plt.show()
+#
+# plt.show()
